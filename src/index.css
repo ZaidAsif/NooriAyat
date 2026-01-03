@@ -1,5 +1,26 @@
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+
+@import "@fontsource/amiri/400.css";
+@import "@fontsource/amiri/700.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+
+@layer base {
+  body {
+    @apply font-sans bg-background-light text-text-primary-light dark:bg-background-dark dark:text-text-primary-dark;
+  }
+
+  .ayah-arabic {
+    @apply font-arabic text-2xl md:text-3xl leading-arabic text-right;
+  }
+
+  .ayah-translation {
+    @apply text-base md:text-lg text-text-secondary-light dark:text-text-secondary-dark;
+  }
+}
