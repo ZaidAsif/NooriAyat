@@ -511,214 +511,394 @@ export const AYATDATA = [
   },
 
 
-{
-  id: "2:195",
-  arabic: "إِنَّ اللَّهَ يُحِبُّ الْمُحْسِنِينَ",
-  translation: {
-    en: "Indeed, Allah loves the doers of good.",
-    ur: "بیشک اللہ نیکی کرنے والوں سے محبت کرتا ہے۔"
-  },
-  revelation: {
-    surah: "Al-Baqarah",
-    ayahNumber: 195,
-    type: "Medinan",
-    context: {
-      en: "This statement appears within guidance about spending and striving in Allah’s cause, emphasizing that Allah loves those who act with excellence, balance, and sincerity.",
-      ur: "یہ بات اللہ کی راہ میں خرچ کرنے اور کوشش کے احکام کے ضمن میں آئی ہے، اور اس بات پر زور دیتی ہے کہ اللہ اخلاص، توازن اور احسان کے ساتھ عمل کرنے والوں سے محبت کرتا ہے۔"
+  {
+    id: "2:195",
+    arabic: "إِنَّ اللَّهَ يُحِبُّ الْمُحْسِنِينَ",
+    translation: {
+      en: "Indeed, Allah loves the doers of good.",
+      ur: "بیشک اللہ نیکی کرنے والوں سے محبت کرتا ہے۔"
     },
-    source: [
-      "Tafsir Ibn Kathir",
-      "Tafsir al-Qurtubi"
-    ]
-  },
-  practicalGuidance: {
-    en: "Strive to perform good deeds with excellence and sincerity, whether in worship, dealings, or helping others.",
-    ur: "عبادت، معاملات اور دوسروں کی مدد میں نیکی کو احسان اور اخلاص کے ساتھ انجام دینے کی کوشش کریں۔"
-  },
-  theme: ["Excellence", "Good Deeds", "Sincerity"],
-  keywords: ["ihsan", "goodness", "charity"],
-  tags: ["daily", "action"]
-},
-
-
-{
-  id: "12:87",
-  arabic: "إِنَّهُ لَا يَيْأَسُ مِن رَّوْحِ اللَّهِ",
-  translation: {
-    en: "Indeed, no one despairs of relief from Allah.",
-    ur: "بیشک اللہ کی رحمت سے ناامید نہیں ہونا چاہیے۔"
-  },
-  revelation: {
-    surah: "Yusuf",
-    ayahNumber: 87,
-    type: "Meccan",
-    context: {
-      en: "This statement is spoken by Prophet Ya‘qub (peace be upon him) to his sons, urging them not to lose hope in Allah’s mercy even after prolonged hardship.",
-      ur: "یہ بات حضرت یعقوبؑ نے اپنے بیٹوں سے فرمائی، جس میں انہیں طویل آزمائش کے باوجود اللہ کی رحمت سے ناامید نہ ہونے کی تلقین کی گئی۔"
+    revelation: {
+      surah: "Al-Baqarah",
+      ayahNumber: 195,
+      type: "Medinan",
+      context: {
+        en: "This statement appears within guidance about spending and striving in Allah’s cause, emphasizing that Allah loves those who act with excellence, balance, and sincerity.",
+        ur: "یہ بات اللہ کی راہ میں خرچ کرنے اور کوشش کے احکام کے ضمن میں آئی ہے، اور اس بات پر زور دیتی ہے کہ اللہ اخلاص، توازن اور احسان کے ساتھ عمل کرنے والوں سے محبت کرتا ہے۔"
+      },
+      source: [
+        "Tafsir Ibn Kathir",
+        "Tafsir al-Qurtubi"
+      ]
     },
-    source: [
-      "Tafsir Ibn Kathir",
-      "Tafsir al-Tabari"
-    ]
-  },
-  practicalGuidance: {
-    en: "Even during long and painful trials, maintain hope in Allah’s mercy and continue seeking His relief.",
-    ur: "طویل اور تکلیف دہ آزمائشوں کے دوران بھی اللہ کی رحمت سے امید قائم رکھیں اور اس سے مدد طلب کرتے رہیں۔"
-  },
-  theme: ["Hope", "Mercy of Allah", "Perseverance"],
-  keywords: ["hope", "mercy", "despair"],
-  tags: ["daily", "hope"]
-},
-
-
-{
-  id: "84:6",
-  arabic: "إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًا فَمُلَاقِيهِ",
-  translation: {
-    en: "Indeed, you are laboring toward your Lord, and you will meet Him.",
-    ur: "اے انسان! تو اپنے رب کی طرف محنت کرتا چلا جا رہا ہے، پھر اس سے ملنے والا ہے۔"
-  },
-  revelation: {
-    surah: "Al-Inshiqaq",
-    ayahNumber: 6,
-    type: "Meccan",
-    context: {
-      en: "This verse addresses humanity in general, reminding that life is a continuous effort leading inevitably to meeting Allah for accountability.",
-      ur: "یہ آیت تمام انسانوں کو مخاطب کرتی ہے، اور یاد دلاتی ہے کہ زندگی کی مسلسل جدوجہد بالآخر اللہ سے ملاقات اور حساب کی طرف لے جاتی ہے۔"
+    practicalGuidance: {
+      en: "Strive to perform good deeds with excellence and sincerity, whether in worship, dealings, or helping others.",
+      ur: "عبادت، معاملات اور دوسروں کی مدد میں نیکی کو احسان اور اخلاص کے ساتھ انجام دینے کی کوشش کریں۔"
     },
-    source: [
-      "Tafsir Ibn Kathir",
-      "Tafsir al-Qurtubi"
-    ]
+    theme: ["Excellence", "Good Deeds", "Sincerity"],
+    keywords: ["ihsan", "goodness", "charity"],
+    tags: ["daily", "action"]
   },
-  practicalGuidance: {
-    en: "Recognize that every effort in life leads toward meeting Allah, and let this awareness guide your actions and priorities.",
-    ur: "اس حقیقت کو پیشِ نظر رکھیں کہ زندگی کی ہر کوشش اللہ سے ملاقات کی طرف بڑھ رہی ہے، اور اسی شعور کے ساتھ اپنے اعمال اور ترجیحات طے کریں۔"
-  },
-  theme: ["Accountability", "Purpose of Life", "Self-Reflection"],
-  keywords: ["effort", "meeting Allah", "accountability"],
-  tags: ["daily", "reflection"]
-},
 
 
-{
-  id: "2:21",
-  arabic: "اعْبُدُوا رَبَّكُمْ",
-  translation: {
-    en: "Worship your Lord.",
-    ur: "اپنے رب کی عبادت کرو۔"
-  },
-  revelation: {
-    surah: "Al-Baqarah",
-    ayahNumber: 21,
-    type: "Medinan",
-    context: {
-      en: "This command is part of the Qur’an’s first direct call to humanity, inviting people to worship Allah alone as the Creator and Sustainer.",
-      ur: "یہ حکم قرآن کی ابتدائی براہِ راست دعوت کا حصہ ہے، جس میں تمام انسانوں کو خالق اور پروردگارِ حقیقی کی عبادت کی طرف بلایا گیا ہے۔"
+  {
+    id: "12:87",
+    arabic: "إِنَّهُ لَا يَيْأَسُ مِن رَّوْحِ اللَّهِ",
+    translation: {
+      en: "Indeed, no one despairs of relief from Allah.",
+      ur: "بیشک اللہ کی رحمت سے ناامید نہیں ہونا چاہیے۔"
     },
-    source: [
-      "Tafsir Ibn Kathir",
-      "Tafsir al-Tabari"
-    ]
-  },
-  practicalGuidance: {
-    en: "Direct your worship and obedience to Allah alone, recognizing Him as your Creator and Sustainer.",
-    ur: "اپنی عبادت اور اطاعت کو صرف اللہ کے لیے خاص کریں، اور اسے اپنا خالق اور پروردگار تسلیم کریں۔"
-  },
-  theme: ["Worship", "Monotheism", "Obedience"],
-  keywords: ["worship", "lordship", "oneness"],
-  tags: ["daily", "foundation"]
-},
-
-
-{
-  id: "103:3",
-  arabic: "وَتَوَاصَوْا بِالصَّبْرِ",
-  translation: {
-    en: "And advised each other to patience.",
-    ur: "اور ایک دوسرے کو صبر کی تلقین کی۔"
-  },
-  revelation: {
-    surah: "Al-Asr",
-    ayahNumber: 3,
-    type: "Meccan",
-    context: {
-      en: "This statement comes within the description of those saved from loss, emphasizing mutual encouragement toward patience in faith, obedience, and facing trials.",
-      ur: "یہ بات ان لوگوں کی صفات کے بیان میں آئی ہے جو خسارے سے بچائے گئے، اور اس میں ایمان، اطاعت اور آزمائشوں میں ایک دوسرے کو صبر کی نصیحت کرنے پر زور دیا گیا ہے۔"
+    revelation: {
+      surah: "Yusuf",
+      ayahNumber: 87,
+      type: "Meccan",
+      context: {
+        en: "This statement is spoken by Prophet Ya‘qub (peace be upon him) to his sons, urging them not to lose hope in Allah’s mercy even after prolonged hardship.",
+        ur: "یہ بات حضرت یعقوبؑ نے اپنے بیٹوں سے فرمائی، جس میں انہیں طویل آزمائش کے باوجود اللہ کی رحمت سے ناامید نہ ہونے کی تلقین کی گئی۔"
+      },
+      source: [
+        "Tafsir Ibn Kathir",
+        "Tafsir al-Tabari"
+      ]
     },
-    source: [
-      "Tafsir Ibn Kathir",
-      "Tafsir al-Qurtubi"
-    ]
-  },
-  practicalGuidance: {
-    en: "Encourage patience within your family and community, especially during hardship and challenges to faith.",
-    ur: "مشکلات اور ایمان کے امتحانات کے وقت اپنے گھر اور معاشرے میں صبر کی تلقین کریں۔"
-  },
-  theme: ["Patience", "Community", "Perseverance"],
-  keywords: ["patience", "advice", "steadfastness"],
-  tags: ["daily", "character"]
-},
-
-
-{
-  id: "2:267",
-  arabic: "إِنَّ اللَّهَ غَنِيٌّ حَمِيدٌ",
-  translation: {
-    en: "Indeed, Allah is Self-Sufficient and Praiseworthy.",
-    ur: "بیشک اللہ بے نیاز اور تعریف کے لائق ہے۔"
-  },
-  revelation: {
-    surah: "Al-Baqarah",
-    ayahNumber: 267,
-    type: "Medinan",
-    context: {
-      en: "This statement appears in guidance regarding charity, reminding believers that Allah is independent of their offerings and deserving of praise regardless of human actions.",
-      ur: "یہ بات صدقہ و خیرات کی ہدایات کے ضمن میں آئی ہے، اور یاد دلاتی ہے کہ اللہ بندوں کے مال کا محتاج نہیں بلکہ ہر حال میں تعریف کے لائق ہے۔"
+    practicalGuidance: {
+      en: "Even during long and painful trials, maintain hope in Allah’s mercy and continue seeking His relief.",
+      ur: "طویل اور تکلیف دہ آزمائشوں کے دوران بھی اللہ کی رحمت سے امید قائم رکھیں اور اس سے مدد طلب کرتے رہیں۔"
     },
-    source: [
-      "Tafsir Ibn Kathir",
-      "Tafsir al-Tabari"
-    ]
+    theme: ["Hope", "Mercy of Allah", "Perseverance"],
+    keywords: ["hope", "mercy", "despair"],
+    tags: ["daily", "hope"]
   },
-  practicalGuidance: {
-    en: "Give charity sincerely, knowing that Allah does not need it, but you benefit through obedience and gratitude.",
-    ur: "اخلاص کے ساتھ صدقہ دیں، یہ جانتے ہوئے کہ اللہ کو اس کی ضرورت نہیں بلکہ اطاعت اور شکر کے ذریعے فائدہ آپ ہی کو ہوتا ہے۔"
-  },
-  theme: ["Sincerity", "Charity", "Gratitude"],
-  keywords: ["charity", "self-sufficiency", "praise"],
-  tags: ["daily", "giving"]
-},
 
 
-{
-  id: "8:46",
-  arabic: "وَاصْبِرُوا ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
-  translation: {
-    en: "And be patient. Indeed, Allah is with the patient.",
-    ur: "اور صبر کرو، بے شک اللہ صبر کرنے والوں کے ساتھ ہے۔"
-  },
-  revelation: {
-    surah: "Al-Anfal",
-    ayahNumber: 46,
-    type: "Medinan",
-    context: {
-      en: "This command was revealed in the context of collective struggle, instructing believers to remain patient and united, assuring them of Allah’s support through patience.",
-      ur: "یہ حکم اجتماعی جدوجہد کے پس منظر میں نازل ہوا، جس میں اہلِ ایمان کو صبر اور اتحاد کی تلقین کی گئی، اور صبر کے ساتھ اللہ کی مدد کی یقین دہانی کرائی گئی۔"
+  {
+    id: "84:6",
+    arabic: "إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًا فَمُلَاقِيهِ",
+    translation: {
+      en: "Indeed, you are laboring toward your Lord, and you will meet Him.",
+      ur: "اے انسان! تو اپنے رب کی طرف محنت کرتا چلا جا رہا ہے، پھر اس سے ملنے والا ہے۔"
     },
-    source: [
-      "Tafsir Ibn Kathir",
-      "Tafsir al-Qurtubi"
-    ]
+    revelation: {
+      surah: "Al-Inshiqaq",
+      ayahNumber: 6,
+      type: "Meccan",
+      context: {
+        en: "This verse addresses humanity in general, reminding that life is a continuous effort leading inevitably to meeting Allah for accountability.",
+        ur: "یہ آیت تمام انسانوں کو مخاطب کرتی ہے، اور یاد دلاتی ہے کہ زندگی کی مسلسل جدوجہد بالآخر اللہ سے ملاقات اور حساب کی طرف لے جاتی ہے۔"
+      },
+      source: [
+        "Tafsir Ibn Kathir",
+        "Tafsir al-Qurtubi"
+      ]
+    },
+    practicalGuidance: {
+      en: "Recognize that every effort in life leads toward meeting Allah, and let this awareness guide your actions and priorities.",
+      ur: "اس حقیقت کو پیشِ نظر رکھیں کہ زندگی کی ہر کوشش اللہ سے ملاقات کی طرف بڑھ رہی ہے، اور اسی شعور کے ساتھ اپنے اعمال اور ترجیحات طے کریں۔"
+    },
+    theme: ["Accountability", "Purpose of Life", "Self-Reflection"],
+    keywords: ["effort", "meeting Allah", "accountability"],
+    tags: ["daily", "reflection"]
   },
-  practicalGuidance: {
-    en: "Remain patient during collective challenges and disagreements, knowing that Allah’s help is tied to patience.",
-    ur: "اجتماعی مشکلات اور اختلافات کے وقت صبر اختیار کریں، اور یہ جانیں کہ اللہ کی مدد صبر کے ساتھ وابستہ ہے۔"
+
+
+  {
+    id: "2:21",
+    arabic: "اعْبُدُوا رَبَّكُمْ",
+    translation: {
+      en: "Worship your Lord.",
+      ur: "اپنے رب کی عبادت کرو۔"
+    },
+    revelation: {
+      surah: "Al-Baqarah",
+      ayahNumber: 21,
+      type: "Medinan",
+      context: {
+        en: "This command is part of the Qur’an’s first direct call to humanity, inviting people to worship Allah alone as the Creator and Sustainer.",
+        ur: "یہ حکم قرآن کی ابتدائی براہِ راست دعوت کا حصہ ہے، جس میں تمام انسانوں کو خالق اور پروردگارِ حقیقی کی عبادت کی طرف بلایا گیا ہے۔"
+      },
+      source: [
+        "Tafsir Ibn Kathir",
+        "Tafsir al-Tabari"
+      ]
+    },
+    practicalGuidance: {
+      en: "Direct your worship and obedience to Allah alone, recognizing Him as your Creator and Sustainer.",
+      ur: "اپنی عبادت اور اطاعت کو صرف اللہ کے لیے خاص کریں، اور اسے اپنا خالق اور پروردگار تسلیم کریں۔"
+    },
+    theme: ["Worship", "Monotheism", "Obedience"],
+    keywords: ["worship", "lordship", "oneness"],
+    tags: ["daily", "foundation"]
   },
-  theme: ["Patience", "Unity", "Divine Support"],
-  keywords: ["patience", "unity", "steadfastness"],
-  tags: ["daily", "discipline"]
-},
+
+
+  {
+    id: "103:3",
+    arabic: "وَتَوَاصَوْا بِالصَّبْرِ",
+    translation: {
+      en: "And advised each other to patience.",
+      ur: "اور ایک دوسرے کو صبر کی تلقین کی۔"
+    },
+    revelation: {
+      surah: "Al-Asr",
+      ayahNumber: 3,
+      type: "Meccan",
+      context: {
+        en: "This statement comes within the description of those saved from loss, emphasizing mutual encouragement toward patience in faith, obedience, and facing trials.",
+        ur: "یہ بات ان لوگوں کی صفات کے بیان میں آئی ہے جو خسارے سے بچائے گئے، اور اس میں ایمان، اطاعت اور آزمائشوں میں ایک دوسرے کو صبر کی نصیحت کرنے پر زور دیا گیا ہے۔"
+      },
+      source: [
+        "Tafsir Ibn Kathir",
+        "Tafsir al-Qurtubi"
+      ]
+    },
+    practicalGuidance: {
+      en: "Encourage patience within your family and community, especially during hardship and challenges to faith.",
+      ur: "مشکلات اور ایمان کے امتحانات کے وقت اپنے گھر اور معاشرے میں صبر کی تلقین کریں۔"
+    },
+    theme: ["Patience", "Community", "Perseverance"],
+    keywords: ["patience", "advice", "steadfastness"],
+    tags: ["daily", "character"]
+  },
+
+
+  {
+    id: "2:267",
+    arabic: "إِنَّ اللَّهَ غَنِيٌّ حَمِيدٌ",
+    translation: {
+      en: "Indeed, Allah is Self-Sufficient and Praiseworthy.",
+      ur: "بیشک اللہ بے نیاز اور تعریف کے لائق ہے۔"
+    },
+    revelation: {
+      surah: "Al-Baqarah",
+      ayahNumber: 267,
+      type: "Medinan",
+      context: {
+        en: "This statement appears in guidance regarding charity, reminding believers that Allah is independent of their offerings and deserving of praise regardless of human actions.",
+        ur: "یہ بات صدقہ و خیرات کی ہدایات کے ضمن میں آئی ہے، اور یاد دلاتی ہے کہ اللہ بندوں کے مال کا محتاج نہیں بلکہ ہر حال میں تعریف کے لائق ہے۔"
+      },
+      source: [
+        "Tafsir Ibn Kathir",
+        "Tafsir al-Tabari"
+      ]
+    },
+    practicalGuidance: {
+      en: "Give charity sincerely, knowing that Allah does not need it, but you benefit through obedience and gratitude.",
+      ur: "اخلاص کے ساتھ صدقہ دیں، یہ جانتے ہوئے کہ اللہ کو اس کی ضرورت نہیں بلکہ اطاعت اور شکر کے ذریعے فائدہ آپ ہی کو ہوتا ہے۔"
+    },
+    theme: ["Sincerity", "Charity", "Gratitude"],
+    keywords: ["charity", "self-sufficiency", "praise"],
+    tags: ["daily", "giving"]
+  },
+
+
+  {
+    id: "8:46",
+    arabic: "وَاصْبِرُوا ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
+    translation: {
+      en: "And be patient. Indeed, Allah is with the patient.",
+      ur: "اور صبر کرو، بے شک اللہ صبر کرنے والوں کے ساتھ ہے۔"
+    },
+    revelation: {
+      surah: "Al-Anfal",
+      ayahNumber: 46,
+      type: "Medinan",
+      context: {
+        en: "This command was revealed in the context of collective struggle, instructing believers to remain patient and united, assuring them of Allah’s support through patience.",
+        ur: "یہ حکم اجتماعی جدوجہد کے پس منظر میں نازل ہوا، جس میں اہلِ ایمان کو صبر اور اتحاد کی تلقین کی گئی، اور صبر کے ساتھ اللہ کی مدد کی یقین دہانی کرائی گئی۔"
+      },
+      source: [
+        "Tafsir Ibn Kathir",
+        "Tafsir al-Qurtubi"
+      ]
+    },
+    practicalGuidance: {
+      en: "Remain patient during collective challenges and disagreements, knowing that Allah’s help is tied to patience.",
+      ur: "اجتماعی مشکلات اور اختلافات کے وقت صبر اختیار کریں، اور یہ جانیں کہ اللہ کی مدد صبر کے ساتھ وابستہ ہے۔"
+    },
+    theme: ["Patience", "Unity", "Divine Support"],
+    keywords: ["patience", "unity", "steadfastness"],
+    tags: ["daily", "discipline"]
+  },
+
+
+  {
+    id: "2:165",
+    arabic: "وَالَّذِينَ آمَنُوا أَشَدُّ حُبًّا لِّلَّهِ",
+    translation: {
+      en: "But those who believe are stronger in love for Allah.",
+      ur: "اور ایمان والے اللہ سے سب سے زیادہ محبت کرتے ہیں۔"
+    },
+    revelation: {
+      surah: "Al-Baqarah",
+      ayahNumber: 165,
+      type: "Medinan",
+      context: {
+        en: "This statement distinguishes true believers from those who associate partners with Allah, affirming that sincere believers direct their deepest love and devotion to Allah alone.",
+        ur: "یہ بات سچے اہلِ ایمان اور شرک کرنے والوں کے درمیان فرق واضح کرتی ہے، اور بتاتی ہے کہ مخلص ایمان والے اپنی سب سے گہری محبت اور وابستگی صرف اللہ کے لیے رکھتے ہیں۔"
+      },
+      source: [
+        "Tafsir Ibn Kathir",
+        "Tafsir al-Tabari"
+      ]
+    },
+    practicalGuidance: {
+      en: "Let love for Allah guide your choices and priorities, placing obedience to Him above all other attachments.",
+      ur: "اللہ کی محبت کو اپنی ترجیحات اور فیصلوں کی بنیاد بنائیں، اور اس کی اطاعت کو ہر دوسری وابستگی پر مقدم رکھیں۔"
+    },
+    theme: ["Love of Allah", "Faith", "Devotion"],
+    keywords: ["love", "faith", "devotion"],
+    tags: ["daily", "belief"]
+  },
+
+
+  {
+    id: "4:36",
+    arabic: "إِنَّ اللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًا فَخُورًا",
+    translation: {
+      en: "Indeed, Allah does not like those who are arrogant and boastful.",
+      ur: "بیشک اللہ تکبر کرنے اور فخر کرنے والوں کو پسند نہیں کرتا۔"
+    },
+    revelation: {
+      surah: "An-Nisa",
+      ayahNumber: 36,
+      type: "Medinan",
+      context: {
+        en: "This statement comes within commands about good conduct and social responsibility, warning against arrogance and pride that corrupt character and relationships.",
+        ur: "یہ بات حسنِ سلوک اور سماجی ذمہ داریوں کے احکام کے ضمن میں آئی ہے، اور تکبر و غرور سے خبردار کرتی ہے جو کردار اور تعلقات کو بگاڑ دیتے ہیں۔"
+      },
+      source: [
+        "Tafsir Ibn Kathir",
+        "Tafsir al-Qurtubi"
+      ]
+    },
+    practicalGuidance: {
+      en: "Avoid arrogance in behavior and speech, and cultivate humility in dealings with others, knowing that pride is disliked by Allah.",
+      ur: "اپنے رویے اور گفتگو میں تکبر سے بچیں، اور دوسروں کے ساتھ معاملہ کرتے وقت عاجزی اختیار کریں، کیونکہ غرور اللہ کو ناپسند ہے۔"
+    },
+    theme: ["Humility", "Character", "Social Ethics"],
+    keywords: ["arrogance", "pride", "humility"],
+    tags: ["daily", "character"]
+  },
+
+
+  {
+    id: "17:70",
+    arabic: "وَلَقَدْ كَرَّمْنَا بَنِي آدَمَ",
+    translation: {
+      en: "And We have certainly honored the children of Adam.",
+      ur: "اور ہم نے بنی آدم کو عزت دی ہے۔"
+    },
+    revelation: {
+      surah: "Al-Isra",
+      ayahNumber: 70,
+      type: "Meccan",
+      context: {
+        en: "This statement affirms the inherent dignity Allah has granted to all human beings, highlighting their special status through intellect, responsibility, and provision.",
+        ur: "یہ بات اس عزت کو بیان کرتی ہے جو اللہ نے تمام انسانوں کو عطا کی ہے، اور ان کے خاص مقام کو عقل، ذمہ داری اور رزق کے ذریعے واضح کرتی ہے۔"
+      },
+      source: [
+        "Tafsir Ibn Kathir",
+        "Tafsir al-Tabari"
+      ]
+    },
+    practicalGuidance: {
+      en: "Treat yourself and others with dignity and respect, recognizing the honor Allah has bestowed upon all human beings.",
+      ur: "اپنے آپ اور دوسروں کے ساتھ عزت اور احترام کا برتاؤ کریں، یہ جانتے ہوئے کہ اللہ نے تمام انسانوں کو عزت عطا کی ہے۔"
+    },
+    theme: ["Human Dignity", "Respect", "Responsibility"],
+    keywords: ["honor", "human dignity", "respect"],
+    tags: ["daily", "ethics"]
+  },
+
+
+  {
+    id: "57:23",
+    arabic: "وَاللَّهُ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+    translation: {
+      en: "And Allah does not like anyone who is self-deluded and boastful.",
+      ur: "اور اللہ کسی اترانے والے فخر کرنے والے کو پسند نہیں کرتا۔"
+    },
+    revelation: {
+      surah: "Al-Hadid",
+      ayahNumber: 23,
+      type: "Medinan",
+      context: {
+        en: "This statement comes within guidance about worldly gains and losses, warning believers not to become arrogant due to blessings or despair due to hardship.",
+        ur: "یہ بات دنیاوی نفع و نقصان کی ہدایات کے ضمن میں آئی ہے، اور نعمت ملنے پر تکبر اور مصیبت میں ناامیدی سے بچنے کی تلقین کرتی ہے۔"
+      },
+      source: [
+        "Tafsir Ibn Kathir",
+        "Tafsir al-Qurtubi"
+      ]
+    },
+    practicalGuidance: {
+      en: "Maintain humility during times of ease and remain balanced during hardship, avoiding pride and self-admiration.",
+      ur: "آسانی کے وقت عاجزی اختیار کریں اور مشکل میں توازن برقرار رکھیں، تکبر اور خود پسندی سے بچیں۔"
+    },
+    theme: ["Humility", "Balance", "Detachment from Worldly Pride"],
+    keywords: ["arrogance", "worldly life", "humility"],
+    tags: ["daily", "self-discipline"]
+  },
+
+
+  {
+    id: "2:177",
+    arabic: "وَآتَى الْمَالَ عَلَىٰ حُبِّهِ",
+    translation: {
+      en: "And gives wealth, in spite of love for it.",
+      ur: "اور مال کو اس کی محبت کے باوجود خرچ کرتا ہے۔"
+    },
+    revelation: {
+      surah: "Al-Baqarah",
+      ayahNumber: 177,
+      type: "Medinan",
+      context: {
+        en: "This phrase appears within the definition of true righteousness, emphasizing that genuine faith is shown through selfless spending for the sake of Allah despite personal attachment to wealth.",
+        ur: "یہ فقرہ حقیقی نیکی کی وضاحت کے ضمن میں آیا ہے، جو یہ بتاتا ہے کہ سچی ایمان داری مال سے محبت کے باوجود اللہ کی رضا کے لیے خرچ کرنے سے ظاہر ہوتی ہے۔"
+      },
+      source: [
+        "Tafsir Ibn Kathir",
+        "Tafsir al-Tabari"
+      ]
+    },
+    practicalGuidance: {
+      en: "Practice generosity even when giving feels difficult, prioritizing Allah’s pleasure over attachment to material possessions.",
+      ur: "جب دینا مشکل محسوس ہو تب بھی سخاوت اختیار کریں، اور مال کی محبت پر اللہ کی رضا کو ترجیح دیں۔"
+    },
+    theme: ["Generosity", "Faith in Action", "Selflessness"],
+    keywords: ["charity", "wealth", "sacrifice"],
+    tags: ["daily", "important"]
+  },
+
+
+  {
+    id: "25:63",
+    arabic: "وَعِبَادُ الرَّحْمَٰنِ الَّذِينَ يَمْشُونَ عَلَى الْأَرْضِ هَوْنًا",
+    translation: {
+      en: "And the servants of the Most Merciful are those who walk upon the earth humbly.",
+      ur: "اور رحمٰن کے بندے وہ ہیں جو زمین پر نرمی اور عاجزی کے ساتھ چلتے ہیں۔"
+    },
+    revelation: {
+      surah: "Al-Furqan",
+      ayahNumber: 63,
+      type: "Meccan",
+      context: {
+        en: "This verse begins a description of the qualities of true servants of Allah, highlighting humility in behavior and conduct as a defining trait.",
+        ur: "یہ آیت اللہ کے سچے بندوں کی صفات کا آغاز کرتی ہے، اور ان کی پہچان کے طور پر عاجزی اور نرم رویّے کو بیان کرتی ہے۔"
+      },
+      source: [
+        "Tafsir Ibn Kathir",
+        "Tafsir al-Qurtubi"
+      ]
+    },
+    practicalGuidance: {
+      en: "Adopt humility in daily behavior, avoiding arrogance in speech, attitude, and interaction with others.",
+      ur: "روزمرہ زندگی میں عاجزی اختیار کریں، بات چیت، رویّے اور لوگوں سے برتاؤ میں تکبر سے بچیں۔"
+    },
+    theme: ["Humility", "Character", "Servitude to Allah"],
+    keywords: ["humility", "character", "servants of Allah"],
+    tags: ["daily", "ethics", "important"]
+  },
 
 
 ]
