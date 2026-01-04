@@ -1,6 +1,7 @@
 export const AYATDATA = [
 
 
+
   {
     id: "94:6",
     arabic: "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
@@ -463,7 +464,7 @@ export const AYATDATA = [
       ayahNumber: 153,
       type: "Medinan",
       context: {
-        en: "This statement comes within guidance to seek help through patience and prayer, assuring believers that Allah’s support and assistance accompany those who remain patient.",
+        en: "This statement comes within guidance to seek help through patience and prayer, Assuring believers that Allah’s support and assistance accompany those who remain patient.",
         ur: "یہ بات صبر اور نماز کے ذریعے مدد مانگنے کی ہدایت کے ضمن میں آئی ہے، اور یہ یقین دلاتی ہے کہ صبر کرنے والوں کے ساتھ اللہ کی مدد اور تائید ہوتی ہے۔"
       },
       source: [
@@ -523,7 +524,7 @@ export const AYATDATA = [
       ayahNumber: 195,
       type: "Medinan",
       context: {
-        en: "This statement appears within guidance about spending and striving in Allah’s cause, emphasizing that Allah loves those who act with excellence, balance, and sincerity.",
+        en: "This statement appears within guidance about spending and striving in Allah’s cause, Emphasizing that Allah loves those who act with excellence, balance, and sincerity.",
         ur: "یہ بات اللہ کی راہ میں خرچ کرنے اور کوشش کے احکام کے ضمن میں آئی ہے، اور اس بات پر زور دیتی ہے کہ اللہ اخلاص، توازن اور احسان کے ساتھ عمل کرنے والوں سے محبت کرتا ہے۔"
       },
       source: [
@@ -899,6 +900,7 @@ export const AYATDATA = [
     keywords: ["humility", "character", "servants of Allah"],
     tags: ["daily", "ethics", "important"]
   },
+
 
 
 ]
