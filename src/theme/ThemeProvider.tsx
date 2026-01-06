@@ -1,74 +1,74 @@
-// src/theme/ThemeProvider.tsx
 import React, { createContext, useContext, useEffect, useState } from "react";
 
 type Theme = "light" | "dark";
-type ThemeContextValue = {
+
+interface ThemeContextType {
   theme: Theme;
-  setTheme: (t: Theme) => void;
   toggleTheme: () => void;
-};
+  setTheme: (theme: Theme) => void;
+}
 
-const STORAGE_KEY = "nooriayat:theme";
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-const ThemeContext = createContext<ThemeContextValue | undefined>(undefined);
+const THEME_STORAGE_KEY = "nooriayat-theme";
 
-export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
   const [theme, setThemeState] = useState<Theme>("light");
 
-  // helper to actually apply the theme to <html>
-  const applyTheme = (t: Theme) => {
-    const el = typeof document !== "undefined" ? document.documentElement : null;
-    if (!el) return;
-    if (t === "dark") el.classList.add("dark");
-    else el.classList.remove("dark");
+  // Apply theme to <html>
+  const applyTheme = (theme: Theme) => {
+    const root = document.documentElement;
+    if (theme === "dark") {
+      root.classList.add("dark");
+    } else {
+      root.classList.remove("dark");
+    }
   };
 
+  // Initial load
   useEffect(() => {
-    // init from localStorage (manual-only)
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY) as Theme | null;
-      const initial = saved === "dark" ? "dark" : "light";
-      setThemeState(initial);
-      applyTheme(initial);
-    } catch (e) {
-      // fallback to light if any error
-      setThemeState("light");
-      applyTheme("light");
-    }
+    const storedTheme = localStorage.getItem(
+      THEME_STORAGE_KEY
+    ) as Theme | null;
 
-    // sync across tabs/windows
-    const onStorage = (e: StorageEvent) => {
-      if (e.key === STORAGE_KEY) {
-        const newVal = (e.newValue as Theme | null) ?? "light";
-        setThemeState(newVal === "dark" ? "dark" : "light");
-        applyTheme(newVal === "dark" ? "dark" : "light");
-      }
-    };
-    window.addEventListener("storage", onStorage);
-    return () => window.removeEventListener("storage", onStorage);
+    if (storedTheme) {
+      setThemeState(storedTheme);
+      applyTheme(storedTheme);
+    } else {
+      const systemPrefersDark = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
+
+      const initialTheme: Theme = systemPrefersDark ? "dark" : "light";
+      setThemeState(initialTheme);
+      applyTheme(initialTheme);
+    }
   }, []);
 
-  const setTheme = (t: Theme) => {
-    try {
-      localStorage.setItem(STORAGE_KEY, t);
-    } catch (e) {
-      /* ignore storage errors */
-    }
-    setThemeState(t);
-    applyTheme(t);
+  const setTheme = (newTheme: Theme) => {
+    setThemeState(newTheme);
+    localStorage.setItem(THEME_STORAGE_KEY, newTheme);
+    applyTheme(newTheme);
   };
 
-  const toggleTheme = () => setTheme(theme === "dark" ? "light" : "dark");
+  const toggleTheme = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
 
   return (
-    <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
+    <ThemeContext.Provider value={{ theme, toggleTheme, setTheme }}>
       {children}
     </ThemeContext.Provider>
   );
 };
 
-export function useTheme() {
-  const ctx = useContext(ThemeContext);
-  if (!ctx) throw new Error("useTheme must be used within ThemeProvider");
-  return ctx;
-}
+// Hook
+export const useTheme = () => {
+  const context = useContext(ThemeContext);
+  if (!context) {
+    throw new Error("useTheme must be used within ThemeProvider");
+  }
+  return context;
+};

@@ -1,14 +1,12 @@
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
+import AyahOfTheDay from "./components/AyatOfTheDay";
+import Header from "./components/Header";
 
 export default function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <Card className="space-y-4 max-w-md">
-        <p className="ayah-arabic">إِنَّ مَعَ الْعُسْرِ يُسْرًا</p>
-        <p className="ayah-translation">Indeed, with hardship comes ease.</p>
-        <Button>Get another ayah</Button>
-      </Card>
-    </div>
+    <>
+      <Header />
+
+      <AyahOfTheDay />
+    </>
   );
 }

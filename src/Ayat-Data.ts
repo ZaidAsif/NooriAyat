@@ -1,4 +1,6 @@
-export const AYATDATA = [
+import type Ayah from "@/types/AyatType";
+
+const AYATDATA: Ayah[] = [
 
 
 
@@ -899,8 +901,8 @@ export const AYATDATA = [
     theme: ["Humility", "Character", "Servitude to Allah"],
     keywords: ["humility", "character", "servants of Allah"],
     tags: ["daily", "ethics", "important"]
-  },
+  }
+];
 
+export default AYATDATA;
 
-
-]

@@ -50,6 +50,27 @@ module.exports = {
       lineHeight: {
         arabic: "2.2",
       },
+
+      keyframes: {
+        logoDrop: {
+          "0%": { transform: "translateY(-24px)", opacity: "0" },
+          "100%": { transform: "translateY(0)", opacity: "1" },
+        },
+        glowPulseOnce: {
+          "0%": { opacity: "0", transform: "scale(0.85)" },
+          "100%": { opacity: "0.6", transform: "scale(1)" },
+        },
+        slideLang: {
+          "0%": { transform: "translateY(-6px)", opacity: "0" },
+          "100%": { transform: "translateY(0)", opacity: "1" },
+        },
+      },
+      animation: {
+        logoDrop: "logoDrop 700ms ease-out forwards",
+        glowOnce: "glowPulseOnce 900ms ease-out forwards",
+        slideLang: "slideLang 200ms ease-out forwards",
+      },
+
     },
   },
   plugins: [
