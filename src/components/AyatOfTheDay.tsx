@@ -19,7 +19,7 @@ export default function AyatOfTheDay() {
   if (isLoading) {
     return (
       <section className="relative mx-auto mt-28 mb-16 max-w-[720px] px-4">
-        <div style={{ backgroundImage: "url(${mushafBg})" }}
+        <div style={{ backgroundImage: `url(${mushafBg})` }}
         className="
           relative overflow-hidden
           bg-red-200
