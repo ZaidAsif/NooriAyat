@@ -18,10 +18,10 @@ export default function AyatOfTheDay() {
   if (isLoading) {
     return (
       <section className="relative mx-auto mt-28 mb-16 max-w-[720px] px-4">
-        <div className="
+        <div style={{ backgroundImage: "url('/mushaf-paper.jpeg')" }}
+        className="
           relative overflow-hidden
           rounded-2xl
-          bg-[url('/mushaf-paper.jpeg')]
           bg-cover bg-center
           shadow-[0_25px_70px_rgba(0,0,0,0.18)]
           px-6 py-10
