@@ -61,10 +61,10 @@ export default function AyatOfTheDay() {
         initial={{ opacity: 0, y: 18 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
+        style={{ backgroundImage: `url(${mushafBg})` }}
         className="
           relative overflow-hidden
           rounded-2xl
-          bg-[url('mushaf-paper.jpeg')]
           bg-cover bg-center
           shadow-[0_25px_70px_rgba(0,0,0,0.18)]
           px-6 py-10
