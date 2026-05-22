@@ -3,6 +3,7 @@ import { Info, BookOpen, RefreshCw } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { useDailyAyah } from "@/hooks/useDailyAyah";
 import { useState } from "react";
+import mushafBg from "@/assets/mushaf-paper.jpeg";
 
 export default function AyatOfTheDay() {
   const { lang } = useLanguage();
@@ -18,9 +19,10 @@ export default function AyatOfTheDay() {
   if (isLoading) {
     return (
       <section className="relative mx-auto mt-28 mb-16 max-w-[720px] px-4">
-        <div style={{ backgroundImage: "url('https://images.unsplash.com/photo-1686806372726-388d03ff49c8?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
+        <div style={{ backgroundImage: "url(${mushafBg})" }}
         className="
           relative overflow-hidden
+          bg-red-200
           rounded-2xl
           bg-cover bg-center
           shadow-[0_25px_70px_rgba(0,0,0,0.18)]
@@ -29,13 +31,13 @@ export default function AyatOfTheDay() {
           animate-pulse
         ">
           {/* Loading skeleton */}
-          {/* <div className="space-y-6">
+          <div className="space-y-6">
             <div className="h-4 w-32 bg-gray-300/50 rounded mx-auto"></div>
             <div className="h-32 bg-gray-300/30 rounded"></div>
             <div className="h-20 bg-gray-300/30 rounded"></div>
             <div className="h-24 bg-gray-300/30 rounded"></div>
             <div className="h-16 bg-gray-300/30 rounded"></div>
-          </div> */}
+          </div>
         </div>
       </section>
     );
@@ -71,12 +73,12 @@ export default function AyatOfTheDay() {
       >
 
         {/* Soft vignette */}
-        <div
+        {/* <div
           aria-hidden
           className="pointer-events-none absolute inset-0
             bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.18),rgba(0,0,0,0.12))]
           "
-        />
+        /> */}
 
         {/* Title */}
         <div className="flex items-center justify-between mb-6">
