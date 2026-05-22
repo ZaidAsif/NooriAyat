@@ -21,7 +21,7 @@ export default function AyatOfTheDay() {
         <div className="
           relative overflow-hidden
           rounded-2xl
-          bg-[url('mushaf-paper.jpeg')]
+          bg-[url('/mushaf-paper.jpeg')]
           bg-cover bg-center
           shadow-[0_25px_70px_rgba(0,0,0,0.18)]
           px-6 py-10
