@@ -29,13 +29,13 @@ export default function AyatOfTheDay() {
           animate-pulse
         ">
           {/* Loading skeleton */}
-          <div className="space-y-6">
+          {/* <div className="space-y-6">
             <div className="h-4 w-32 bg-gray-300/50 rounded mx-auto"></div>
             <div className="h-32 bg-gray-300/30 rounded"></div>
             <div className="h-20 bg-gray-300/30 rounded"></div>
             <div className="h-24 bg-gray-300/30 rounded"></div>
             <div className="h-16 bg-gray-300/30 rounded"></div>
-          </div>
+          </div> */}
         </div>
       </section>
     );
