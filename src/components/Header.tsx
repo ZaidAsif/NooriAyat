@@ -1,5 +1,4 @@
 import { LanguageSwitcher } from "./LanguageSwitcher";
-import { Languages } from "lucide-react";
 import { DarkModeToggle } from "./DarkModeToggle";
 
 export default function Header() {
